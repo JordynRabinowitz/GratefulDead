@@ -1,0 +1,120 @@
+.logo{
+position: fixed;
+z-index: 999;
+}
+.navbar{
+  z-index: 50;
+  margin-top: 10%;
+  float: left;
+  background-color: black
+}
+.navbar-nav{
+  padding: auto;
+  margin: auto;
+  font-size: 21px;
+  
+}
+.nav-link{
+  color: #0242A3;
+}
+
+.navlogo{
+  position: absolute;
+  z-index: 999;
+  margin: 0px;
+  padding: 0px;
+}
+.homeslides{
+  position: fixed;
+  z-index: 50;
+  margin-top: 1%;
+  object-fit: fill;
+}
+body{
+  background: black;
+}
+.box-layout{
+  position: absolute;
+  z-index: 50;
+  margin-top: 13%; 
+}
+.container{
+  position: absolute;
+  z-index: 50;
+  margin-top: 13%; 
+}
+
+.showyearsboxes{
+  margin-top: 2%;
+}
+.boxes1980{
+  margin-top: 2%;
+  
+}
+.boxes1960{
+  margin-top: 2%;
+}
+.image60{
+  height: 95px;
+  width: 95px;
+  object-fit: cover;
+}
+.image1980{
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+}
+
+.image{
+  height: 135px;
+  width: 135px;
+  object-fit: cover;
+}
+.col{
+ padding: 5px;
+ margin: 5px;
+}
+.row{
+  margin-left: 2%;
+}
+
+.carousel-item {
+  transition: transform 3s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 1.50s 1.50s;
+}
+.space{
+  margin-top: 15%;
+  position: fixed;
+  z-index: 50;
+}
+.about-back{
+z-index: 50;
+position: relative;
+left: 50%;
+top: 100%;
+transform: translate(-50%, -50%);
+}
+
+.background{
+  margin-top: 15%;
+  opacity: 0.30;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  object-fit: fill; 
+}
+
+.words{
+position: absolute;
+top: 78%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: white;
+font-size: 16px;
+padding: 10px;
+width: 95%;
+}
